@@ -30,6 +30,12 @@ configuracion del header
 .header a{
     padding-right: 5px;
 }
+#menu a:hover{
+    transition: all 1s;
+}
+#menu a:hover{
+    transform: scale(1.1);
+}
 #logo{
     position: relative;
     top: 2px;
@@ -41,7 +47,7 @@ configuracion del header
     margin: 1rem;
 }
 a:hover{
-    color: rgb(184, 10, 10);
+    color: rgb(255, 0, 0);
 }
 a{
     text-decoration: none;
@@ -83,9 +89,12 @@ body{
     margin-top: 2rem;
     margin-left: 2%;
 }
+
 #imagenesafter{
     align-items: center;
+    
 }
+
 #capturas{
     width: 50%;
     position: relative;
@@ -114,6 +123,10 @@ configuracion main imagenes
 .card{
     width: 30%;
     margin-top: 1rem;
+    transition: all 1s;
+}
+.card:hover{
+    transform: scale(1.1);
 }
 
 /*
@@ -133,6 +146,10 @@ configuracion main noticias
 .noticia{
     width: 90%;
     margin-left: 5%;
+    transition: all 1s;
+}
+.noticia:hover{
+    transform: scale(1.1);
 }
 
 /*
