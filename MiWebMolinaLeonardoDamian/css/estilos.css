@@ -30,28 +30,24 @@ configuracion del header
 .header a{
     padding-right: 5px;
 }
-#menu a:hover{
-    transition: all 1s;
-}
-#menu a:hover{
-    transform: scale(1.1);
-}
+
 #logo{
     position: relative;
     top: 2px;
 }
+/*
 .menu{
     margin-right: 1%;
-    font-weight: 700;
-    font-size: 1.2em;
     margin: 1rem;
 }
-a:hover{
+*/
+#coll:hover{
     color: rgb(255, 0, 0);
 }
-a{
+#coll{
     text-decoration: none;
     color: black;
+    font-weight: 500;
 }
 
 
@@ -68,7 +64,7 @@ body{
 #cartel{
     width: 100%;
 }
-#explicacion{
+.container-md{
     margin: 20px;
     font-family: 'Roboto';
     font-weight: 300;

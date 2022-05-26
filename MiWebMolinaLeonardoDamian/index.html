@@ -8,20 +8,42 @@
     <!--icono de la pestaña-->
     <link rel="shortcut icon" href="./assets/imagenes/after gamer2 ico.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/estilos.css">
+
+    <!--boostrap-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 </head> 
 <body class="body">
+
+    <!--boostrap-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+
     <header class="header">
         <div id="logo">
             <a href="#"><img src="./assets/imagenes/after cabecera.png" alt="logo" width="150"></a>
         </div>
-        <div>
-            <nav class="menu">
-                <a href="#">Inicio</a>
-                <a href="./paginas/imagenes.html">Imagenes</a>
-                <a href="./paginas/noticias.html">Noticias</a>
-                <a href="./paginas/contacto.html">Contacto</a>
-                <a href="./paginas/ayuda.html">Ayuda</a>
-            </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href="#" id="coll">Inicio</a>
+                </div>
+                <div class="col">
+                    <a href="./paginas/imagenes.html" id="coll">Imagenes</a>
+                </div>
+                <div class="col">
+                    <a href="./paginas/noticias.html" id="coll">Noticias</a>
+                </div>
+                <div class="col">
+                   <a href="./paginas/contacto.html" id="coll">Contacto</a>
+                </div>
+                <div class="col">
+                    <a href="./paginas/ayuda.html" id="coll">Ayuda</a>
+                </div> 
+            </div> 
         </div>
 
     </header>
@@ -30,11 +52,14 @@
         <div id="lodelcuadro">
             <h1>Sobre el Canal</h1>
         </div>
-        <p id="explicacion">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita atque odit quidem amet sint molestiae fugiat repellendus eveniet culpa consequuntur cupiditate, eos dolor ea a natus alias nemo cumque vel.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, quo tempora inventore error neque voluptate sint in autem doloribus laboriosam, pariatur eius aspernatur itaque a, voluptas asperiores enim modi perspiciatis.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nemo pariatur in harum assumenda doloribus qui ipsam, quod reiciendis perspiciatis non fuga, consectetur, ipsa provident. Repellat assumenda hic voluptatum distinctio.
-        </p>
+
+        <div  class="container-md">
+            Bienvenido a After2AM! una pagina en la q podras encontrar contenido sobre las noticias mas extrañas y trending del momento.
+            Aquí podras compartir tus puntos de vista siempre y cuando seas respetuoso con las opiniones de los demas usuarios. el objetivo de esta
+            pagina es entretener y dar lugar al debate y al conocimiento.
+            Mil cabezas piensan mejor q una! animate a participar, visita los sitios web de After 2 AM y sumate a esta hermosa comunidad de opinadores compulsivos!
+
+        </div>
         <section id="grid">
             <video muted autoplay loop id="videito">
                 <source src="./assets/videos/intro.mp4"    
