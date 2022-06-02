@@ -1,0 +1,229 @@
+/*
+fuente
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+    font-family: 'Roboto';
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+configuracion del header
+*/
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 7rem;
+}
+@media screen and (max-width: 500px) {
+    .display-container{
+        flex-direction: row;
+    }
+}
+.header a{
+    padding-right: 5px;
+}
+
+#logo{
+    position: relative;
+    top: 2px;
+}
+/*
+.menu{
+    margin-right: 1%;
+    margin: 1rem;
+}
+*/
+#coll:hover{
+    color: rgb(255, 0, 0);
+}
+#coll{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+
+/*
+configuraciopn Main index
+*/
+
+body{
+    overflow-x: hidden;
+    background-image: linear-gradient(to bottom, #d1ecf2, #c7e1e7, #bed7dc, #b4ccd2, #abc2c7, #afc3c9, #b4c5cb, #b8c6cd, #cbd3da, #dee1e7, #eff0f3, #ffffff);
+    /*background-color: rgb(211, 211, 218);*/
+    width: 100%;
+}
+#cartel{
+    width: 100%;
+}
+.container-md{
+    margin: 20px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+
+#lodelcuadro{
+    margin: 1rem;
+    text-align: center;
+    font-size: 1.4rem;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+    align-items: center;
+}
+
+#videito, #videito2{
+    width: 100%;
+}
+/*
+#videito2{
+    width: 96%;
+}
+*/
+#imagenesafter{
+    align-items: center;
+    
+}
+
+#capturas{
+    width: 50%;
+    position: relative;
+    top: 8rem;
+}
+
+/*
+configuracion main imagenes
+*/
+
+#cartel2{
+    width: 100%;
+}
+#imagenes{
+    text-align: center;
+
+}
+
+.imagenesafter{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5%;
+    margin-left: 5%;
+    padding-top: 20px;
+}
+.card{
+    width: 30%;
+    margin-top: 1rem;
+    transition: all 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+/*
+configuracion main noticias 
+*/
+
+#bodynoticias h1{
+    text-align: center;
+    margin: 2rem;
+    font-size: 2.3rem;
+}
+#parrafito{
+    margin: 1rem;
+    text-align: center;
+}
+
+.noticia{
+    width: 90%;
+    margin-left: 5%;
+    transition: all 1s;
+}
+.noticia:hover{
+    transform: scale(1.1);
+}
+
+/*
+
+configuracion contacto
+
+*/
+
+#pform{
+    margin: 2rem;
+}
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 30%;
+    
+}
+.form2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#envi{
+    width: 30%;
+}
+
+/*
+grid 
+*/
+.notiv{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+/*
+
+configuracion main ayuda
+
+*/
+#ayutext{
+    text-align: center;
+    margin: 2rem;
+}
+#ayuexp{
+    margin: 2rem;
+}
+
+/*
+configuracion del footer
+*/
+
+.pie{
+    width: 100%;
+    height: 5rem;
+    
+    background-image: linear-gradient(to top, #d1ecf2, #d1eaef, #d1e7eb, #d0e5e8, #d0e2e5, #d4e3e7, #d8e5e9, #dce6ea, #e6ecf0, #eff2f5, #f8f8fa, #ffffff);
+}
+h2{
+    margin: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5%;
+}
+#redes{
+    display: flex;
+    gap: 10px;
+    background-position: center;
+}
+iframe{
+    width: 60%;
+    margin-left: 20%;
+}
